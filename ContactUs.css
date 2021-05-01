@@ -1,0 +1,43 @@
+body{
+      background-image: url("https://media.istockphoto.com/photos/contact-us-concept-with-wood-block-and-symbols-picture-id1170264057?k=6&m=1170264057&s=612x612&w=0&h=KuUJgfB8KyuB-Ag58ym6RQ83yJIOQF67a5E3zpkNEGM=");
+      background-repeat:no-repeat;
+      background-size: 100% 300%;
+}
+h1{
+    text-align:center;
+    text-decoration: black;
+    text-shadow: blanchedalmond;
+    padding:100px;
+    padding-top:1%;
+    color:rgb(8, 11, 12);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    text-align:center;
+}
+.sidenav{
+    /* height:200%; */
+    width:100px;
+    position: fixed;
+    background-color: burlywood;
+    overflow-x:hidden;
+    padding-top:20px;
+}
+.sidenav a{
+    padding:10px 8px 8px 22px;
+    font-size:25px;
+    text-decoration: none;
+    color:white;
+    display:contents;
+}
+.sidenav a:hover{
+    color:chocolate;
+}
+.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    text-align:center;
+    background-color: rgb(146, 105, 43);
+    width:100%;
+}
