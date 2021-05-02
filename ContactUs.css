@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#baap {
+  position: absolute;
+  background-color: #7ce7ac;
+  /* background-color: black; */
+  
+
+
+}
+#main_contact {
+  display: flex;
+}
+.left_part {
+  position: relative;
+
+  color: black;
+  background-color: white;
+  height: 512px;
+  width: 500px;
+  top: 50px;
+  left: 100px;
+  
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  /* border: 1px solid black; */
+  box-shadow: 8px 8px 8px 0px grey, 0px 8px 8px 5px grey;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.right_part {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  position: relative;
+  color: black;
+  height: 500px;
+  width: 600px;
+  top: 90px;
+  left: 190px;
+}
+
+.form div {
+  padding: 2px;
+  float: initial;
+  margin: 10px;
+}
+.form input {
+  padding: 9px;
+  margin-left: 9px;
+  margin-right: 9px;
+  margin-top: 4px;
+  /* margin-bottom: 1px; */
+  border-radius: 10px;
+  border: 3px solid rgb(36, 31, 35);
+}
+.form textarea {
+  padding: 4px;
+  /* display: flex; */
+  border-radius: 10px;
+  border: 3px solid rgb(36, 31, 35);
+}
+#message {
+  display: flex;
+}
+/* .button{
+    padding-bottom: 10px;
+} */
+.form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  top: 2%;
+}
+
+#email {
+  margin-left: 36px;
+}
+#phone {
+  margin-left: 12px;
+}
+.left_part h1 {
+  color: rgb(6, 33, 109);
+  font-size: 3rem;
+  font-family: 'Cabin', sans-serif;
+}
+
+.right_part h1{
+    font-size: 3rem;
+}
+#logo img{
+    height: 79px;
+    width: 133px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid black;
+    border-radius: 20%;
+}
