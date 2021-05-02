@@ -35,9 +35,9 @@
     position: relative;
     color: black;
     height: 500px;
-    width: 750px;
+    width: 900px;
     /* top: 0px; */
-    left: 190px;
+    left: 150px;
   }
   .right_part p{
     font-size: 1.5rem;
@@ -94,7 +94,7 @@
   
   .right_part h1 {
     font-size: 3rem;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-bottom: 2px solid black;
   }
   #logo img {

@@ -7,9 +7,6 @@
   position: absolute;
   background-color: #7ce7ac;
   /* background-color: black; */
-  
-
-
 }
 #main_contact {
   display: flex;
@@ -23,7 +20,7 @@
   width: 500px;
   top: 50px;
   left: 100px;
-  
+
   /* font-family: "Poppins", sans-serif; */
   font-family: "Roboto", sans-serif;
   /* border: 1px solid black; */
@@ -31,16 +28,21 @@
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .right_part {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   color: black;
   height: 500px;
-  width: 650px;
-  top: 30px;
-  left: 160px;
+  width: 750px;
+  /* top: 0px; */
+  left: 190px;
+}
+.right_part p{
+  font-size: 1.5rem;
+  text-align: center;
+  
 }
 
 .form div {
@@ -87,20 +89,20 @@
 .left_part h1 {
   color: rgb(6, 33, 109);
   font-size: 3rem;
-  font-family: 'Cabin', sans-serif;
+  font-family: "Cabin", sans-serif;
 }
 
-.right_part h1{
-    font-size: 2.5rem;
-    padding-bottom: 10px;
-    border-bottom: 3px solid black;
+.right_part h1 {
+  font-size: 3rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
 }
-#logo img{
-    height: 79px;
-    width: 133px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-    margin-left: 10px;
-    border: 3px solid black;
-    border-radius: 20%;
+#logo img {
+  height: 79px;
+  width: 133px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 3px solid black;
+  border-radius: 20%;
 }
