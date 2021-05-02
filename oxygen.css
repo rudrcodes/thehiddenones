@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #baap {
+    position: absolute;
+    background-color: #809df0;
+    /* background-color: black; */
+  }
+  #main_contact {
+    display: flex;
+  }
+  .left_part {
+    position: relative;
+  
+    color: black;
+    background-color: rgba(161, 214, 223, 0.986);
+    height: 512px;
+    width: 500px;
+    top: 50px;
+    left: 100px;
+  
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Roboto", sans-serif;
+    /* border: 1px solid black; */
+    box-shadow: 8px 8px 8px 0px grey, 0px 8px 8px 5px grey;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+  .right_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: black;
+    height: 500px;
+    width: 750px;
+    /* top: 0px; */
+    left: 190px;
+  }
+  .right_part p{
+    font-size: 1.5rem;
+    text-align: center;
+    
+  }
+  
+  .form div {
+    padding: 2px;
+    float: initial;
+    margin: 5px;
+  }
+  .form input {
+    padding: 9px;
+    margin-left: 5px;
+    margin-right: 9px;
+    margin-top: 2px;
+    /* margin-bottom: 1px; */
+    border-radius: 10px;
+    border: 3px solid rgb(36, 31, 35);
+  }
+  .form textarea {
+    padding: 2px;
+    /* display: flex; */
+    border-radius: 10px;
+    border: 3px solid rgb(36, 31, 35);
+  }
+  #message {
+    display: flex;
+  }
+  /* .button{
+      padding-bottom: 10px;
+  } */
+  .form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    top: 2%;
+  }
+  
+  #email {
+    margin-left: 36px;
+  }
+  #phone {
+    margin-left: 12px;
+  }
+  .left_part h1 {
+    color: rgb(6, 33, 109);
+    font-size: 3rem;
+    font-family: "Cabin", sans-serif;
+  }
+  
+  .right_part h1 {
+    font-size: 3rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+  }
+  #logo img {
+    height: 79px;
+    width: 133px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid black;
+    border-radius: 20%;
+  }
+  .feildset{
+      padding:1px;
+      padding-left: 4px;
+      text-align: left;
+      left:100px;
+      top:100px;
+  }
